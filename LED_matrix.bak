@@ -1794,4 +1794,53 @@ F 3 "~" H 9400 1500 50  0001 C CNN
 	1    9400 1500
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	9300 850  9400 850 
+Wire Wire Line
+	9400 850  9400 900 
+Wire Wire Line
+	9400 850  9800 850 
+Wire Wire Line
+	9800 850  9800 900 
+Connection ~ 9400 850 
+Wire Wire Line
+	9400 1200 9400 1250
+Wire Wire Line
+	9400 1250 9650 1250
+Wire Wire Line
+	9650 1250 9650 1750
+Wire Wire Line
+	9650 1750 9400 1750
+Wire Wire Line
+	9400 1750 9400 1650
+$Comp
+L Device:LED D?
+U 1 1 5C8D99F4
+P 9800 1500
+F 0 "D?" V 9838 1383 50  0000 R CNN
+F 1 "LED" V 9747 1383 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 9800 1500 50  0001 C CNN
+F 3 "~" H 9800 1500 50  0001 C CNN
+	1    9800 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9300 1300 9400 1300
+Wire Wire Line
+	9800 1300 9800 1350
+Wire Wire Line
+	9400 1350 9400 1300
+Connection ~ 9400 1300
+Wire Wire Line
+	9400 1300 9800 1300
+Wire Wire Line
+	9800 1200 9800 1250
+Wire Wire Line
+	9800 1250 10100 1250
+Wire Wire Line
+	10100 1250 10100 1750
+Wire Wire Line
+	10100 1750 9800 1750
+Wire Wire Line
+	9800 1750 9800 1650
 $EndSCHEMATC

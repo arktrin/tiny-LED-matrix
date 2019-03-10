@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 1)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "../"))
   )
 
   (net 0 "")
