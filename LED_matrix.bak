@@ -1,0 +1,1797 @@
+EESchema Schematic File Version 4
+LIBS:LED_matrix-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D1
+U 1 1 5C82CEF7
+P 6400 1050
+F 0 "D1" V 6438 933 50  0000 R CNN
+F 1 "LED" V 6347 933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 6400 1050 50  0001 C CNN
+F 3 "~" H 6400 1050 50  0001 C CNN
+	1    6400 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D11
+U 1 1 5C82CFDA
+P 6850 1050
+F 0 "D11" V 6888 933 50  0000 R CNN
+F 1 "LED" V 6797 933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 6850 1050 50  0001 C CNN
+F 3 "~" H 6850 1050 50  0001 C CNN
+	1    6850 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D21
+U 1 1 5C82D045
+P 7300 1050
+F 0 "D21" V 7338 933 50  0000 R CNN
+F 1 "LED" V 7247 933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 7300 1050 50  0001 C CNN
+F 3 "~" H 7300 1050 50  0001 C CNN
+	1    7300 1050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 850  7300 900 
+Wire Wire Line
+	6850 900  6850 850 
+Connection ~ 6850 850 
+Wire Wire Line
+	6850 850  7300 850 
+Wire Wire Line
+	6400 900  6400 850 
+Wire Wire Line
+	6400 850  6850 850 
+$Comp
+L Device:LED D31
+U 1 1 5C82D4B1
+P 7750 1050
+F 0 "D31" V 7788 933 50  0000 R CNN
+F 1 "LED" V 7697 933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 7750 1050 50  0001 C CNN
+F 3 "~" H 7750 1050 50  0001 C CNN
+	1    7750 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D41
+U 1 1 5C82D4E1
+P 8200 1050
+F 0 "D41" V 8238 933 50  0000 R CNN
+F 1 "LED" V 8147 933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 8200 1050 50  0001 C CNN
+F 3 "~" H 8200 1050 50  0001 C CNN
+	1    8200 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D51
+U 1 1 5C82D572
+P 8650 1050
+F 0 "D51" V 8688 933 50  0000 R CNN
+F 1 "LED" V 8597 933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 8650 1050 50  0001 C CNN
+F 3 "~" H 8650 1050 50  0001 C CNN
+	1    8650 1050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 850  7750 850 
+Wire Wire Line
+	8650 850  8650 900 
+Connection ~ 7300 850 
+Wire Wire Line
+	7750 900  7750 850 
+Connection ~ 7750 850 
+Wire Wire Line
+	7750 850  8200 850 
+Wire Wire Line
+	8200 900  8200 850 
+Connection ~ 8200 850 
+Wire Wire Line
+	8200 850  8650 850 
+$Comp
+L Device:LED D2
+U 1 1 5C82E0EC
+P 6400 1550
+F 0 "D2" V 6438 1433 50  0000 R CNN
+F 1 "LED" V 6347 1433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 6400 1550 50  0001 C CNN
+F 3 "~" H 6400 1550 50  0001 C CNN
+	1    6400 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D12
+U 1 1 5C82E0F3
+P 6850 1550
+F 0 "D12" V 6888 1433 50  0000 R CNN
+F 1 "LED" V 6797 1433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 6850 1550 50  0001 C CNN
+F 3 "~" H 6850 1550 50  0001 C CNN
+	1    6850 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D22
+U 1 1 5C82E0FA
+P 7300 1550
+F 0 "D22" V 7338 1433 50  0000 R CNN
+F 1 "LED" V 7247 1433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 7300 1550 50  0001 C CNN
+F 3 "~" H 7300 1550 50  0001 C CNN
+	1    7300 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 1350 7300 1400
+Wire Wire Line
+	6850 1400 6850 1350
+Connection ~ 6850 1350
+Wire Wire Line
+	6850 1350 7300 1350
+Wire Wire Line
+	6400 1400 6400 1350
+Wire Wire Line
+	6400 1350 6850 1350
+$Comp
+L Device:LED D32
+U 1 1 5C82E109
+P 7750 1550
+F 0 "D32" V 7788 1433 50  0000 R CNN
+F 1 "LED" V 7697 1433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 7750 1550 50  0001 C CNN
+F 3 "~" H 7750 1550 50  0001 C CNN
+	1    7750 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D42
+U 1 1 5C82E110
+P 8200 1550
+F 0 "D42" V 8238 1433 50  0000 R CNN
+F 1 "LED" V 8147 1433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 8200 1550 50  0001 C CNN
+F 3 "~" H 8200 1550 50  0001 C CNN
+	1    8200 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D52
+U 1 1 5C82E117
+P 8650 1550
+F 0 "D52" V 8688 1433 50  0000 R CNN
+F 1 "LED" V 8597 1433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 8650 1550 50  0001 C CNN
+F 3 "~" H 8650 1550 50  0001 C CNN
+	1    8650 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 1350 7750 1350
+Wire Wire Line
+	8650 1350 8650 1400
+Connection ~ 7300 1350
+Wire Wire Line
+	7750 1400 7750 1350
+Connection ~ 7750 1350
+Wire Wire Line
+	7750 1350 8200 1350
+Wire Wire Line
+	8200 1400 8200 1350
+Connection ~ 8200 1350
+Wire Wire Line
+	8200 1350 8650 1350
+Wire Wire Line
+	6400 1750 6700 1750
+Wire Wire Line
+	6700 1750 6700 1250
+Wire Wire Line
+	6700 1250 6400 1250
+Wire Wire Line
+	6400 1250 6400 1200
+Wire Wire Line
+	6400 1700 6400 1750
+Wire Wire Line
+	6850 1200 6850 1250
+Wire Wire Line
+	6850 1250 7150 1250
+Wire Wire Line
+	7150 1250 7150 1750
+Wire Wire Line
+	7150 1750 6850 1750
+Wire Wire Line
+	6850 1750 6850 1700
+Wire Wire Line
+	7300 1200 7300 1250
+Wire Wire Line
+	7300 1250 7600 1250
+Wire Wire Line
+	7600 1250 7600 1750
+Wire Wire Line
+	7600 1750 7300 1750
+Wire Wire Line
+	7300 1750 7300 1700
+Wire Wire Line
+	7750 1250 7750 1200
+Wire Wire Line
+	7750 1250 8050 1250
+Wire Wire Line
+	8050 1250 8050 1750
+Wire Wire Line
+	8050 1750 7750 1750
+Wire Wire Line
+	7750 1750 7750 1700
+Wire Wire Line
+	8200 1200 8200 1250
+Wire Wire Line
+	8200 1250 8500 1250
+Wire Wire Line
+	8500 1250 8500 1750
+Wire Wire Line
+	8500 1750 8200 1750
+Wire Wire Line
+	8200 1750 8200 1700
+Wire Wire Line
+	8650 1200 8650 1250
+Wire Wire Line
+	8650 1750 8650 1700
+Wire Wire Line
+	8650 1250 8950 1250
+Wire Wire Line
+	8950 1250 8950 1750
+Wire Wire Line
+	8950 1750 8650 1750
+$Comp
+L Device:LED D3
+U 1 1 5C834F67
+P 6400 2050
+F 0 "D3" V 6438 1933 50  0000 R CNN
+F 1 "LED" V 6347 1933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 6400 2050 50  0001 C CNN
+F 3 "~" H 6400 2050 50  0001 C CNN
+	1    6400 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D13
+U 1 1 5C834F6E
+P 6850 2050
+F 0 "D13" V 6888 1933 50  0000 R CNN
+F 1 "LED" V 6797 1933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 6850 2050 50  0001 C CNN
+F 3 "~" H 6850 2050 50  0001 C CNN
+	1    6850 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D23
+U 1 1 5C834F75
+P 7300 2050
+F 0 "D23" V 7338 1933 50  0000 R CNN
+F 1 "LED" V 7247 1933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 7300 2050 50  0001 C CNN
+F 3 "~" H 7300 2050 50  0001 C CNN
+	1    7300 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 1850 7300 1900
+Wire Wire Line
+	6850 1900 6850 1850
+Connection ~ 6850 1850
+Wire Wire Line
+	6850 1850 7300 1850
+Wire Wire Line
+	6400 1900 6400 1850
+Wire Wire Line
+	6400 1850 6850 1850
+$Comp
+L Device:LED D33
+U 1 1 5C834F84
+P 7750 2050
+F 0 "D33" V 7788 1933 50  0000 R CNN
+F 1 "LED" V 7697 1933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 7750 2050 50  0001 C CNN
+F 3 "~" H 7750 2050 50  0001 C CNN
+	1    7750 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D43
+U 1 1 5C834F8B
+P 8200 2050
+F 0 "D43" V 8238 1933 50  0000 R CNN
+F 1 "LED" V 8147 1933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 8200 2050 50  0001 C CNN
+F 3 "~" H 8200 2050 50  0001 C CNN
+	1    8200 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D53
+U 1 1 5C834F92
+P 8650 2050
+F 0 "D53" V 8688 1933 50  0000 R CNN
+F 1 "LED" V 8597 1933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 8650 2050 50  0001 C CNN
+F 3 "~" H 8650 2050 50  0001 C CNN
+	1    8650 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 1850 7750 1850
+Wire Wire Line
+	8650 1850 8650 1900
+Connection ~ 7300 1850
+Wire Wire Line
+	7750 1900 7750 1850
+Connection ~ 7750 1850
+Wire Wire Line
+	7750 1850 8200 1850
+Wire Wire Line
+	8200 1900 8200 1850
+Connection ~ 8200 1850
+Wire Wire Line
+	8200 1850 8650 1850
+$Comp
+L Device:LED D4
+U 1 1 5C834FA2
+P 6400 2550
+F 0 "D4" V 6438 2433 50  0000 R CNN
+F 1 "LED" V 6347 2433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 6400 2550 50  0001 C CNN
+F 3 "~" H 6400 2550 50  0001 C CNN
+	1    6400 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D14
+U 1 1 5C834FA9
+P 6850 2550
+F 0 "D14" V 6888 2433 50  0000 R CNN
+F 1 "LED" V 6797 2433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 6850 2550 50  0001 C CNN
+F 3 "~" H 6850 2550 50  0001 C CNN
+	1    6850 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D24
+U 1 1 5C834FB0
+P 7300 2550
+F 0 "D24" V 7338 2433 50  0000 R CNN
+F 1 "LED" V 7247 2433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 7300 2550 50  0001 C CNN
+F 3 "~" H 7300 2550 50  0001 C CNN
+	1    7300 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 2350 7300 2400
+Wire Wire Line
+	6850 2400 6850 2350
+Connection ~ 6850 2350
+Wire Wire Line
+	6850 2350 7300 2350
+Wire Wire Line
+	6400 2400 6400 2350
+Wire Wire Line
+	6400 2350 6850 2350
+$Comp
+L Device:LED D34
+U 1 1 5C834FBF
+P 7750 2550
+F 0 "D34" V 7788 2433 50  0000 R CNN
+F 1 "LED" V 7697 2433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 7750 2550 50  0001 C CNN
+F 3 "~" H 7750 2550 50  0001 C CNN
+	1    7750 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D44
+U 1 1 5C834FC6
+P 8200 2550
+F 0 "D44" V 8238 2433 50  0000 R CNN
+F 1 "LED" V 8147 2433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 8200 2550 50  0001 C CNN
+F 3 "~" H 8200 2550 50  0001 C CNN
+	1    8200 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D54
+U 1 1 5C834FCD
+P 8650 2550
+F 0 "D54" V 8688 2433 50  0000 R CNN
+F 1 "LED" V 8597 2433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 8650 2550 50  0001 C CNN
+F 3 "~" H 8650 2550 50  0001 C CNN
+	1    8650 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 2350 7750 2350
+Wire Wire Line
+	8650 2350 8650 2400
+Connection ~ 7300 2350
+Wire Wire Line
+	7750 2400 7750 2350
+Connection ~ 7750 2350
+Wire Wire Line
+	7750 2350 8200 2350
+Wire Wire Line
+	8200 2400 8200 2350
+Connection ~ 8200 2350
+Wire Wire Line
+	8200 2350 8650 2350
+Wire Wire Line
+	6400 2750 6700 2750
+Wire Wire Line
+	6700 2750 6700 2250
+Wire Wire Line
+	6700 2250 6400 2250
+Wire Wire Line
+	6400 2250 6400 2200
+Wire Wire Line
+	6400 2700 6400 2750
+Wire Wire Line
+	6850 2200 6850 2250
+Wire Wire Line
+	6850 2250 7150 2250
+Wire Wire Line
+	7150 2250 7150 2750
+Wire Wire Line
+	7150 2750 6850 2750
+Wire Wire Line
+	6850 2750 6850 2700
+Wire Wire Line
+	7300 2200 7300 2250
+Wire Wire Line
+	7300 2250 7600 2250
+Wire Wire Line
+	7600 2250 7600 2750
+Wire Wire Line
+	7600 2750 7300 2750
+Wire Wire Line
+	7300 2750 7300 2700
+Wire Wire Line
+	7750 2250 7750 2200
+Wire Wire Line
+	7750 2250 8050 2250
+Wire Wire Line
+	8050 2250 8050 2750
+Wire Wire Line
+	8050 2750 7750 2750
+Wire Wire Line
+	7750 2750 7750 2700
+Wire Wire Line
+	8200 2200 8200 2250
+Wire Wire Line
+	8200 2250 8500 2250
+Wire Wire Line
+	8500 2250 8500 2750
+Wire Wire Line
+	8500 2750 8200 2750
+Wire Wire Line
+	8200 2750 8200 2700
+Wire Wire Line
+	8650 2200 8650 2250
+Wire Wire Line
+	8650 2750 8650 2700
+Wire Wire Line
+	8650 2250 8950 2250
+Wire Wire Line
+	8950 2250 8950 2750
+Wire Wire Line
+	8950 2750 8650 2750
+$Comp
+L Device:LED D5
+U 1 1 5C838864
+P 6400 3050
+F 0 "D5" V 6438 2933 50  0000 R CNN
+F 1 "LED" V 6347 2933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 6400 3050 50  0001 C CNN
+F 3 "~" H 6400 3050 50  0001 C CNN
+	1    6400 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D15
+U 1 1 5C83886B
+P 6850 3050
+F 0 "D15" V 6888 2933 50  0000 R CNN
+F 1 "LED" V 6797 2933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 6850 3050 50  0001 C CNN
+F 3 "~" H 6850 3050 50  0001 C CNN
+	1    6850 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D25
+U 1 1 5C838872
+P 7300 3050
+F 0 "D25" V 7338 2933 50  0000 R CNN
+F 1 "LED" V 7247 2933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 7300 3050 50  0001 C CNN
+F 3 "~" H 7300 3050 50  0001 C CNN
+	1    7300 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 2850 7300 2900
+Wire Wire Line
+	6850 2900 6850 2850
+Connection ~ 6850 2850
+Wire Wire Line
+	6850 2850 7300 2850
+Wire Wire Line
+	6400 2900 6400 2850
+Wire Wire Line
+	6400 2850 6850 2850
+$Comp
+L Device:LED D35
+U 1 1 5C838881
+P 7750 3050
+F 0 "D35" V 7788 2933 50  0000 R CNN
+F 1 "LED" V 7697 2933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 7750 3050 50  0001 C CNN
+F 3 "~" H 7750 3050 50  0001 C CNN
+	1    7750 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D45
+U 1 1 5C838888
+P 8200 3050
+F 0 "D45" V 8238 2933 50  0000 R CNN
+F 1 "LED" V 8147 2933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 8200 3050 50  0001 C CNN
+F 3 "~" H 8200 3050 50  0001 C CNN
+	1    8200 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D55
+U 1 1 5C83888F
+P 8650 3050
+F 0 "D55" V 8688 2933 50  0000 R CNN
+F 1 "LED" V 8597 2933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 8650 3050 50  0001 C CNN
+F 3 "~" H 8650 3050 50  0001 C CNN
+	1    8650 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 2850 7750 2850
+Wire Wire Line
+	8650 2850 8650 2900
+Connection ~ 7300 2850
+Wire Wire Line
+	7750 2900 7750 2850
+Connection ~ 7750 2850
+Wire Wire Line
+	7750 2850 8200 2850
+Wire Wire Line
+	8200 2900 8200 2850
+Connection ~ 8200 2850
+Wire Wire Line
+	8200 2850 8650 2850
+$Comp
+L Device:LED D6
+U 1 1 5C83889F
+P 6400 3550
+F 0 "D6" V 6438 3433 50  0000 R CNN
+F 1 "LED" V 6347 3433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 6400 3550 50  0001 C CNN
+F 3 "~" H 6400 3550 50  0001 C CNN
+	1    6400 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D16
+U 1 1 5C8388A6
+P 6850 3550
+F 0 "D16" V 6888 3433 50  0000 R CNN
+F 1 "LED" V 6797 3433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 6850 3550 50  0001 C CNN
+F 3 "~" H 6850 3550 50  0001 C CNN
+	1    6850 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D26
+U 1 1 5C8388AD
+P 7300 3550
+F 0 "D26" V 7338 3433 50  0000 R CNN
+F 1 "LED" V 7247 3433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 7300 3550 50  0001 C CNN
+F 3 "~" H 7300 3550 50  0001 C CNN
+	1    7300 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 3350 7300 3400
+Wire Wire Line
+	6850 3400 6850 3350
+Connection ~ 6850 3350
+Wire Wire Line
+	6850 3350 7300 3350
+Wire Wire Line
+	6400 3400 6400 3350
+Wire Wire Line
+	6400 3350 6850 3350
+$Comp
+L Device:LED D36
+U 1 1 5C8388BC
+P 7750 3550
+F 0 "D36" V 7788 3433 50  0000 R CNN
+F 1 "LED" V 7697 3433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 7750 3550 50  0001 C CNN
+F 3 "~" H 7750 3550 50  0001 C CNN
+	1    7750 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D46
+U 1 1 5C8388C3
+P 8200 3550
+F 0 "D46" V 8238 3433 50  0000 R CNN
+F 1 "LED" V 8147 3433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 8200 3550 50  0001 C CNN
+F 3 "~" H 8200 3550 50  0001 C CNN
+	1    8200 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D56
+U 1 1 5C8388CA
+P 8650 3550
+F 0 "D56" V 8688 3433 50  0000 R CNN
+F 1 "LED" V 8597 3433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 8650 3550 50  0001 C CNN
+F 3 "~" H 8650 3550 50  0001 C CNN
+	1    8650 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 3350 7750 3350
+Wire Wire Line
+	8650 3350 8650 3400
+Connection ~ 7300 3350
+Wire Wire Line
+	7750 3400 7750 3350
+Connection ~ 7750 3350
+Wire Wire Line
+	7750 3350 8200 3350
+Wire Wire Line
+	8200 3400 8200 3350
+Connection ~ 8200 3350
+Wire Wire Line
+	8200 3350 8650 3350
+Wire Wire Line
+	6400 3750 6700 3750
+Wire Wire Line
+	6700 3750 6700 3250
+Wire Wire Line
+	6700 3250 6400 3250
+Wire Wire Line
+	6400 3250 6400 3200
+Wire Wire Line
+	6400 3700 6400 3750
+Wire Wire Line
+	6850 3200 6850 3250
+Wire Wire Line
+	6850 3250 7150 3250
+Wire Wire Line
+	7150 3250 7150 3750
+Wire Wire Line
+	7150 3750 6850 3750
+Wire Wire Line
+	6850 3750 6850 3700
+Wire Wire Line
+	7300 3200 7300 3250
+Wire Wire Line
+	7300 3250 7600 3250
+Wire Wire Line
+	7600 3250 7600 3750
+Wire Wire Line
+	7600 3750 7300 3750
+Wire Wire Line
+	7300 3750 7300 3700
+Wire Wire Line
+	7750 3250 7750 3200
+Wire Wire Line
+	7750 3250 8050 3250
+Wire Wire Line
+	8050 3250 8050 3750
+Wire Wire Line
+	8050 3750 7750 3750
+Wire Wire Line
+	7750 3750 7750 3700
+Wire Wire Line
+	8200 3200 8200 3250
+Wire Wire Line
+	8200 3250 8500 3250
+Wire Wire Line
+	8500 3250 8500 3750
+Wire Wire Line
+	8500 3750 8200 3750
+Wire Wire Line
+	8200 3750 8200 3700
+Wire Wire Line
+	8650 3200 8650 3250
+Wire Wire Line
+	8650 3750 8650 3700
+Wire Wire Line
+	8650 3250 8950 3250
+Wire Wire Line
+	8950 3250 8950 3750
+Wire Wire Line
+	8950 3750 8650 3750
+$Comp
+L Device:LED D7
+U 1 1 5C848826
+P 6400 4050
+F 0 "D7" V 6438 3933 50  0000 R CNN
+F 1 "LED" V 6347 3933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 6400 4050 50  0001 C CNN
+F 3 "~" H 6400 4050 50  0001 C CNN
+	1    6400 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D17
+U 1 1 5C84882D
+P 6850 4050
+F 0 "D17" V 6888 3933 50  0000 R CNN
+F 1 "LED" V 6797 3933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 6850 4050 50  0001 C CNN
+F 3 "~" H 6850 4050 50  0001 C CNN
+	1    6850 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D27
+U 1 1 5C848834
+P 7300 4050
+F 0 "D27" V 7338 3933 50  0000 R CNN
+F 1 "LED" V 7247 3933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 7300 4050 50  0001 C CNN
+F 3 "~" H 7300 4050 50  0001 C CNN
+	1    7300 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 3850 7300 3900
+Wire Wire Line
+	6850 3900 6850 3850
+Connection ~ 6850 3850
+Wire Wire Line
+	6850 3850 7300 3850
+Wire Wire Line
+	6400 3900 6400 3850
+Wire Wire Line
+	6400 3850 6850 3850
+$Comp
+L Device:LED D37
+U 1 1 5C848843
+P 7750 4050
+F 0 "D37" V 7788 3933 50  0000 R CNN
+F 1 "LED" V 7697 3933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 7750 4050 50  0001 C CNN
+F 3 "~" H 7750 4050 50  0001 C CNN
+	1    7750 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D47
+U 1 1 5C84884A
+P 8200 4050
+F 0 "D47" V 8238 3933 50  0000 R CNN
+F 1 "LED" V 8147 3933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 8200 4050 50  0001 C CNN
+F 3 "~" H 8200 4050 50  0001 C CNN
+	1    8200 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D57
+U 1 1 5C848851
+P 8650 4050
+F 0 "D57" V 8688 3933 50  0000 R CNN
+F 1 "LED" V 8597 3933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 8650 4050 50  0001 C CNN
+F 3 "~" H 8650 4050 50  0001 C CNN
+	1    8650 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 3850 7750 3850
+Wire Wire Line
+	8650 3850 8650 3900
+Connection ~ 7300 3850
+Wire Wire Line
+	7750 3900 7750 3850
+Connection ~ 7750 3850
+Wire Wire Line
+	7750 3850 8200 3850
+Wire Wire Line
+	8200 3900 8200 3850
+Connection ~ 8200 3850
+Wire Wire Line
+	8200 3850 8650 3850
+$Comp
+L Device:LED D8
+U 1 1 5C848861
+P 6400 4550
+F 0 "D8" V 6438 4433 50  0000 R CNN
+F 1 "LED" V 6347 4433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 6400 4550 50  0001 C CNN
+F 3 "~" H 6400 4550 50  0001 C CNN
+	1    6400 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D18
+U 1 1 5C848868
+P 6850 4550
+F 0 "D18" V 6888 4433 50  0000 R CNN
+F 1 "LED" V 6797 4433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 6850 4550 50  0001 C CNN
+F 3 "~" H 6850 4550 50  0001 C CNN
+	1    6850 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D28
+U 1 1 5C84886F
+P 7300 4550
+F 0 "D28" V 7338 4433 50  0000 R CNN
+F 1 "LED" V 7247 4433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 7300 4550 50  0001 C CNN
+F 3 "~" H 7300 4550 50  0001 C CNN
+	1    7300 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 4350 7300 4400
+Wire Wire Line
+	6850 4400 6850 4350
+Connection ~ 6850 4350
+Wire Wire Line
+	6850 4350 7300 4350
+Wire Wire Line
+	6400 4400 6400 4350
+Wire Wire Line
+	6400 4350 6850 4350
+$Comp
+L Device:LED D38
+U 1 1 5C84887E
+P 7750 4550
+F 0 "D38" V 7788 4433 50  0000 R CNN
+F 1 "LED" V 7697 4433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 7750 4550 50  0001 C CNN
+F 3 "~" H 7750 4550 50  0001 C CNN
+	1    7750 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D48
+U 1 1 5C848885
+P 8200 4550
+F 0 "D48" V 8238 4433 50  0000 R CNN
+F 1 "LED" V 8147 4433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 8200 4550 50  0001 C CNN
+F 3 "~" H 8200 4550 50  0001 C CNN
+	1    8200 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D58
+U 1 1 5C84888C
+P 8650 4550
+F 0 "D58" V 8688 4433 50  0000 R CNN
+F 1 "LED" V 8597 4433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 8650 4550 50  0001 C CNN
+F 3 "~" H 8650 4550 50  0001 C CNN
+	1    8650 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 4350 7750 4350
+Wire Wire Line
+	8650 4350 8650 4400
+Connection ~ 7300 4350
+Wire Wire Line
+	7750 4400 7750 4350
+Connection ~ 7750 4350
+Wire Wire Line
+	7750 4350 8200 4350
+Wire Wire Line
+	8200 4400 8200 4350
+Connection ~ 8200 4350
+Wire Wire Line
+	8200 4350 8650 4350
+Wire Wire Line
+	6400 4750 6700 4750
+Wire Wire Line
+	6700 4750 6700 4250
+Wire Wire Line
+	6700 4250 6400 4250
+Wire Wire Line
+	6400 4250 6400 4200
+Wire Wire Line
+	6400 4700 6400 4750
+Wire Wire Line
+	6850 4200 6850 4250
+Wire Wire Line
+	6850 4250 7150 4250
+Wire Wire Line
+	7150 4250 7150 4750
+Wire Wire Line
+	7150 4750 6850 4750
+Wire Wire Line
+	6850 4750 6850 4700
+Wire Wire Line
+	7300 4200 7300 4250
+Wire Wire Line
+	7300 4250 7600 4250
+Wire Wire Line
+	7600 4250 7600 4750
+Wire Wire Line
+	7600 4750 7300 4750
+Wire Wire Line
+	7300 4750 7300 4700
+Wire Wire Line
+	7750 4250 7750 4200
+Wire Wire Line
+	7750 4250 8050 4250
+Wire Wire Line
+	8050 4250 8050 4750
+Wire Wire Line
+	8050 4750 7750 4750
+Wire Wire Line
+	7750 4750 7750 4700
+Wire Wire Line
+	8200 4200 8200 4250
+Wire Wire Line
+	8200 4250 8500 4250
+Wire Wire Line
+	8500 4250 8500 4750
+Wire Wire Line
+	8500 4750 8200 4750
+Wire Wire Line
+	8200 4750 8200 4700
+Wire Wire Line
+	8650 4200 8650 4250
+Wire Wire Line
+	8650 4750 8650 4700
+Wire Wire Line
+	8650 4250 8950 4250
+Wire Wire Line
+	8950 4250 8950 4750
+Wire Wire Line
+	8950 4750 8650 4750
+$Comp
+L Device:LED D9
+U 1 1 5C8488BA
+P 6400 5050
+F 0 "D9" V 6438 4933 50  0000 R CNN
+F 1 "LED" V 6347 4933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 6400 5050 50  0001 C CNN
+F 3 "~" H 6400 5050 50  0001 C CNN
+	1    6400 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D19
+U 1 1 5C8488C1
+P 6850 5050
+F 0 "D19" V 6888 4933 50  0000 R CNN
+F 1 "LED" V 6797 4933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 6850 5050 50  0001 C CNN
+F 3 "~" H 6850 5050 50  0001 C CNN
+	1    6850 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D29
+U 1 1 5C8488C8
+P 7300 5050
+F 0 "D29" V 7338 4933 50  0000 R CNN
+F 1 "LED" V 7247 4933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 7300 5050 50  0001 C CNN
+F 3 "~" H 7300 5050 50  0001 C CNN
+	1    7300 5050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 4850 7300 4900
+Wire Wire Line
+	6850 4900 6850 4850
+Connection ~ 6850 4850
+Wire Wire Line
+	6850 4850 7300 4850
+Wire Wire Line
+	6400 4900 6400 4850
+Wire Wire Line
+	6400 4850 6850 4850
+$Comp
+L Device:LED D39
+U 1 1 5C8488D7
+P 7750 5050
+F 0 "D39" V 7788 4933 50  0000 R CNN
+F 1 "LED" V 7697 4933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 7750 5050 50  0001 C CNN
+F 3 "~" H 7750 5050 50  0001 C CNN
+	1    7750 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D49
+U 1 1 5C8488DE
+P 8200 5050
+F 0 "D49" V 8238 4933 50  0000 R CNN
+F 1 "LED" V 8147 4933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 8200 5050 50  0001 C CNN
+F 3 "~" H 8200 5050 50  0001 C CNN
+	1    8200 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D59
+U 1 1 5C8488E5
+P 8650 5050
+F 0 "D59" V 8688 4933 50  0000 R CNN
+F 1 "LED" V 8597 4933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 8650 5050 50  0001 C CNN
+F 3 "~" H 8650 5050 50  0001 C CNN
+	1    8650 5050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 4850 7750 4850
+Wire Wire Line
+	8650 4850 8650 4900
+Connection ~ 7300 4850
+Wire Wire Line
+	7750 4900 7750 4850
+Connection ~ 7750 4850
+Wire Wire Line
+	7750 4850 8200 4850
+Wire Wire Line
+	8200 4900 8200 4850
+Connection ~ 8200 4850
+Wire Wire Line
+	8200 4850 8650 4850
+$Comp
+L Device:LED D10
+U 1 1 5C8488F5
+P 6400 5550
+F 0 "D10" V 6438 5433 50  0000 R CNN
+F 1 "LED" V 6347 5433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 6400 5550 50  0001 C CNN
+F 3 "~" H 6400 5550 50  0001 C CNN
+	1    6400 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D20
+U 1 1 5C8488FC
+P 6850 5550
+F 0 "D20" V 6888 5433 50  0000 R CNN
+F 1 "LED" V 6797 5433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 6850 5550 50  0001 C CNN
+F 3 "~" H 6850 5550 50  0001 C CNN
+	1    6850 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D30
+U 1 1 5C848903
+P 7300 5550
+F 0 "D30" V 7338 5433 50  0000 R CNN
+F 1 "LED" V 7247 5433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 7300 5550 50  0001 C CNN
+F 3 "~" H 7300 5550 50  0001 C CNN
+	1    7300 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 5350 7300 5400
+Wire Wire Line
+	6850 5400 6850 5350
+Connection ~ 6850 5350
+Wire Wire Line
+	6850 5350 7300 5350
+Wire Wire Line
+	6400 5400 6400 5350
+Wire Wire Line
+	6400 5350 6850 5350
+$Comp
+L Device:LED D40
+U 1 1 5C848912
+P 7750 5550
+F 0 "D40" V 7788 5433 50  0000 R CNN
+F 1 "LED" V 7697 5433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 7750 5550 50  0001 C CNN
+F 3 "~" H 7750 5550 50  0001 C CNN
+	1    7750 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D50
+U 1 1 5C848919
+P 8200 5550
+F 0 "D50" V 8238 5433 50  0000 R CNN
+F 1 "LED" V 8147 5433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 8200 5550 50  0001 C CNN
+F 3 "~" H 8200 5550 50  0001 C CNN
+	1    8200 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D60
+U 1 1 5C848920
+P 8650 5550
+F 0 "D60" V 8688 5433 50  0000 R CNN
+F 1 "LED" V 8597 5433 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 8650 5550 50  0001 C CNN
+F 3 "~" H 8650 5550 50  0001 C CNN
+	1    8650 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 5350 7750 5350
+Wire Wire Line
+	8650 5350 8650 5400
+Connection ~ 7300 5350
+Wire Wire Line
+	7750 5400 7750 5350
+Connection ~ 7750 5350
+Wire Wire Line
+	7750 5350 8200 5350
+Wire Wire Line
+	8200 5400 8200 5350
+Connection ~ 8200 5350
+Wire Wire Line
+	8200 5350 8650 5350
+Wire Wire Line
+	6400 5750 6700 5750
+Wire Wire Line
+	6700 5750 6700 5250
+Wire Wire Line
+	6700 5250 6400 5250
+Wire Wire Line
+	6400 5250 6400 5200
+Wire Wire Line
+	6400 5700 6400 5750
+Wire Wire Line
+	6850 5200 6850 5250
+Wire Wire Line
+	6850 5250 7150 5250
+Wire Wire Line
+	7150 5250 7150 5750
+Wire Wire Line
+	7150 5750 6850 5750
+Wire Wire Line
+	6850 5750 6850 5700
+Wire Wire Line
+	7300 5200 7300 5250
+Wire Wire Line
+	7300 5250 7600 5250
+Wire Wire Line
+	7600 5250 7600 5750
+Wire Wire Line
+	7600 5750 7300 5750
+Wire Wire Line
+	7300 5750 7300 5700
+Wire Wire Line
+	7750 5250 7750 5200
+Wire Wire Line
+	7750 5250 8050 5250
+Wire Wire Line
+	8050 5250 8050 5750
+Wire Wire Line
+	8050 5750 7750 5750
+Wire Wire Line
+	7750 5750 7750 5700
+Wire Wire Line
+	8200 5200 8200 5250
+Wire Wire Line
+	8200 5250 8500 5250
+Wire Wire Line
+	8500 5250 8500 5750
+Wire Wire Line
+	8500 5750 8200 5750
+Wire Wire Line
+	8200 5750 8200 5700
+Wire Wire Line
+	8650 5200 8650 5250
+Wire Wire Line
+	8650 5750 8650 5700
+Wire Wire Line
+	8650 5250 8950 5250
+Wire Wire Line
+	8950 5250 8950 5750
+Wire Wire Line
+	8950 5750 8650 5750
+Wire Wire Line
+	6700 2250 6700 1750
+Connection ~ 6700 2250
+Connection ~ 6700 1750
+Wire Wire Line
+	7150 1750 7150 2250
+Connection ~ 7150 1750
+Connection ~ 7150 2250
+Wire Wire Line
+	7600 1750 7600 2250
+Connection ~ 7600 1750
+Connection ~ 7600 2250
+Wire Wire Line
+	8050 1750 8050 2250
+Connection ~ 8050 1750
+Connection ~ 8050 2250
+Wire Wire Line
+	8500 1750 8500 2250
+Connection ~ 8500 1750
+Connection ~ 8500 2250
+Wire Wire Line
+	8950 1750 8950 2250
+Connection ~ 8950 1750
+Connection ~ 8950 2250
+Wire Wire Line
+	8950 2750 8950 3250
+Connection ~ 8950 2750
+Connection ~ 8950 3250
+Wire Wire Line
+	8500 2750 8500 3250
+Connection ~ 8500 2750
+Connection ~ 8500 3250
+Wire Wire Line
+	8050 2750 8050 3250
+Connection ~ 8050 2750
+Connection ~ 8050 3250
+Wire Wire Line
+	7600 2750 7600 3250
+Connection ~ 7600 2750
+Connection ~ 7600 3250
+Wire Wire Line
+	7150 2750 7150 3250
+Connection ~ 7150 2750
+Connection ~ 7150 3250
+Wire Wire Line
+	6700 2750 6700 3250
+Connection ~ 6700 2750
+Connection ~ 6700 3250
+Wire Wire Line
+	6700 3750 6700 4250
+Connection ~ 6700 3750
+Connection ~ 6700 4250
+Wire Wire Line
+	7600 3750 7600 4250
+Connection ~ 7600 3750
+Connection ~ 7600 4250
+Wire Wire Line
+	8050 3750 8050 4250
+Connection ~ 8050 3750
+Connection ~ 8050 4250
+Wire Wire Line
+	8500 3750 8500 4250
+Connection ~ 8500 3750
+Connection ~ 8500 4250
+Wire Wire Line
+	8950 3750 8950 4250
+Connection ~ 8950 3750
+Connection ~ 8950 4250
+Wire Wire Line
+	8950 4750 8950 5250
+Connection ~ 8950 4750
+Connection ~ 8950 5250
+Wire Wire Line
+	8500 4750 8500 5250
+Connection ~ 8500 4750
+Connection ~ 8500 5250
+Wire Wire Line
+	8050 4750 8050 5250
+Connection ~ 8050 4750
+Connection ~ 8050 5250
+Wire Wire Line
+	7600 5250 7600 4750
+Connection ~ 7600 5250
+Connection ~ 7600 4750
+Wire Wire Line
+	7150 4750 7150 5250
+Connection ~ 7150 4750
+Connection ~ 7150 5250
+Wire Wire Line
+	6700 5250 6700 4750
+Connection ~ 6700 5250
+Connection ~ 6700 4750
+Wire Wire Line
+	6700 5750 6700 5900
+Connection ~ 6700 5750
+Wire Wire Line
+	7150 5750 7150 5900
+Connection ~ 7150 5750
+Wire Wire Line
+	7600 5750 7600 5900
+Connection ~ 7600 5750
+Wire Wire Line
+	8050 5750 8050 5900
+Connection ~ 8050 5750
+Wire Wire Line
+	8500 5750 8500 5900
+Connection ~ 8500 5750
+Wire Wire Line
+	8950 5750 8950 5900
+Connection ~ 8950 5750
+$Comp
+L Device:R R11
+U 1 1 5D73367D
+P 6700 6050
+F 0 "R11" H 6770 6096 50  0000 L CNN
+F 1 "100R" H 6770 6005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6630 6050 50  0001 C CNN
+F 3 "~" H 6700 6050 50  0001 C CNN
+	1    6700 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5D733D57
+P 7150 6050
+F 0 "R12" H 7220 6096 50  0000 L CNN
+F 1 "100R" H 7220 6005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7080 6050 50  0001 C CNN
+F 3 "~" H 7150 6050 50  0001 C CNN
+	1    7150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5D733FE1
+P 7600 6050
+F 0 "R13" H 7670 6096 50  0000 L CNN
+F 1 "100R" H 7670 6005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7530 6050 50  0001 C CNN
+F 3 "~" H 7600 6050 50  0001 C CNN
+	1    7600 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5D734081
+P 8050 6050
+F 0 "R14" H 8120 6096 50  0000 L CNN
+F 1 "100R" H 8120 6005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7980 6050 50  0001 C CNN
+F 3 "~" H 8050 6050 50  0001 C CNN
+	1    8050 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5D734367
+P 8500 6050
+F 0 "R15" H 8570 6096 50  0000 L CNN
+F 1 "100R" H 8570 6005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8430 6050 50  0001 C CNN
+F 3 "~" H 8500 6050 50  0001 C CNN
+	1    8500 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5D734407
+P 8950 6050
+F 0 "R16" H 9020 6096 50  0000 L CNN
+F 1 "100R" H 9020 6005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8880 6050 50  0001 C CNN
+F 3 "~" H 8950 6050 50  0001 C CNN
+	1    8950 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D7347C5
+P 6100 850
+F 0 "R1" V 5893 850 50  0000 C CNN
+F 1 "100R" V 5984 850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 850 50  0001 C CNN
+F 3 "~" H 6100 850 50  0001 C CNN
+	1    6100 850 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D734CEC
+P 6100 1350
+F 0 "R2" V 5893 1350 50  0000 C CNN
+F 1 "100R" V 5984 1350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 1350 50  0001 C CNN
+F 3 "~" H 6100 1350 50  0001 C CNN
+	1    6100 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5D73510C
+P 6100 1850
+F 0 "R3" V 5893 1850 50  0000 C CNN
+F 1 "100R" V 5984 1850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 1850 50  0001 C CNN
+F 3 "~" H 6100 1850 50  0001 C CNN
+	1    6100 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5D735468
+P 6100 2350
+F 0 "R4" V 5893 2350 50  0000 C CNN
+F 1 "100R" V 5984 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 2350 50  0001 C CNN
+F 3 "~" H 6100 2350 50  0001 C CNN
+	1    6100 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5D735A4A
+P 6100 2850
+F 0 "R5" V 5893 2850 50  0000 C CNN
+F 1 "100R" V 5984 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 2850 50  0001 C CNN
+F 3 "~" H 6100 2850 50  0001 C CNN
+	1    6100 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5D735FAF
+P 6100 3350
+F 0 "R6" V 5893 3350 50  0000 C CNN
+F 1 "100R" V 5984 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 3350 50  0001 C CNN
+F 3 "~" H 6100 3350 50  0001 C CNN
+	1    6100 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5D73605F
+P 6100 3850
+F 0 "R7" V 5893 3850 50  0000 C CNN
+F 1 "100R" V 5984 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 3850 50  0001 C CNN
+F 3 "~" H 6100 3850 50  0001 C CNN
+	1    6100 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5D736115
+P 6100 4350
+F 0 "R8" V 5893 4350 50  0000 C CNN
+F 1 "100R" V 5984 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 4350 50  0001 C CNN
+F 3 "~" H 6100 4350 50  0001 C CNN
+	1    6100 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5D7361C9
+P 6100 4850
+F 0 "R9" V 5893 4850 50  0000 C CNN
+F 1 "100R" V 5984 4850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 4850 50  0001 C CNN
+F 3 "~" H 6100 4850 50  0001 C CNN
+	1    6100 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5D7364DF
+P 6100 5350
+F 0 "R10" V 5893 5350 50  0000 C CNN
+F 1 "100R" V 5984 5350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 5350 50  0001 C CNN
+F 3 "~" H 6100 5350 50  0001 C CNN
+	1    6100 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 850  6400 850 
+Connection ~ 6400 850 
+Wire Wire Line
+	6250 1350 6400 1350
+Connection ~ 6400 1350
+Wire Wire Line
+	6250 1850 6400 1850
+Connection ~ 6400 1850
+Wire Wire Line
+	6250 2350 6400 2350
+Connection ~ 6400 2350
+Wire Wire Line
+	6250 2850 6400 2850
+Connection ~ 6400 2850
+Wire Wire Line
+	6250 3350 6400 3350
+Connection ~ 6400 3350
+Wire Wire Line
+	6250 3850 6400 3850
+Connection ~ 6400 3850
+Wire Wire Line
+	6250 4350 6400 4350
+Connection ~ 6400 4350
+Wire Wire Line
+	6250 4850 6400 4850
+Connection ~ 6400 4850
+Wire Wire Line
+	6250 5350 6400 5350
+Connection ~ 6400 5350
+Wire Wire Line
+	5950 850  5550 850 
+Wire Wire Line
+	5950 1350 5550 1350
+Wire Wire Line
+	5950 1850 5550 1850
+Wire Wire Line
+	5950 2350 5550 2350
+Wire Wire Line
+	5950 2850 5550 2850
+Wire Wire Line
+	5950 3350 5550 3350
+Wire Wire Line
+	5950 3850 5550 3850
+Wire Wire Line
+	5950 4350 5550 4350
+Wire Wire Line
+	5950 4850 5550 4850
+Wire Wire Line
+	5950 5350 5550 5350
+Wire Wire Line
+	6700 6200 6700 6350
+Wire Wire Line
+	6700 6350 6400 6350
+Wire Wire Line
+	7150 6200 7150 6350
+Wire Wire Line
+	7150 6350 6850 6350
+Wire Wire Line
+	7600 6200 7600 6350
+Wire Wire Line
+	7600 6350 7300 6350
+Wire Wire Line
+	8050 6200 8050 6350
+Wire Wire Line
+	8050 6350 7750 6350
+Wire Wire Line
+	8500 6200 8500 6350
+Wire Wire Line
+	8500 6350 8200 6350
+Wire Wire Line
+	8950 6200 8950 6350
+Wire Wire Line
+	8950 6350 8650 6350
+Text Label 5600 850  0    50   ~ 0
+row_0
+Text Label 5600 1350 0    50   ~ 0
+row_1
+Text Label 5600 1850 0    50   ~ 0
+row_2
+Text Label 5600 2350 0    50   ~ 0
+row_3
+Text Label 5600 2850 0    50   ~ 0
+row_4
+Text Label 5600 3350 0    50   ~ 0
+row_5
+Text Label 5600 3850 0    50   ~ 0
+row_6
+Text Label 5600 4350 0    50   ~ 0
+row_7
+Text Label 5600 4850 0    50   ~ 0
+row_8
+Text Label 5600 5350 0    50   ~ 0
+row_9
+Text Label 6450 6350 0    50   ~ 0
+col_0
+Text Label 6900 6350 0    50   ~ 0
+col_1
+Text Label 7350 6350 0    50   ~ 0
+col_2
+Text Label 7800 6350 0    50   ~ 0
+col_3
+Text Label 8250 6350 0    50   ~ 0
+col_4
+Text Label 8700 6350 0    50   ~ 0
+col_5
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J1
+U 1 1 5DC18AC4
+P 4100 2700
+F 0 "J1" H 4150 3817 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 4150 3726 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 4100 2700 50  0001 C CNN
+F 3 "~" H 4100 2700 50  0001 C CNN
+	1    4100 2700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3600 4950 3600
+Wire Wire Line
+	3800 3700 3150 3700
+Wire Wire Line
+	3800 3600 3150 3600
+Wire Wire Line
+	3800 3500 3150 3500
+Wire Wire Line
+	4300 3500 4950 3500
+Wire Wire Line
+	4300 3400 4950 3400
+Wire Wire Line
+	4300 3200 4950 3200
+Wire Wire Line
+	4300 2900 4950 2900
+Wire Wire Line
+	4300 2800 4950 2800
+Wire Wire Line
+	4300 2700 4950 2700
+Wire Wire Line
+	3800 2800 3150 2800
+NoConn ~ 4300 1800
+NoConn ~ 3800 1800
+NoConn ~ 3800 1900
+NoConn ~ 4300 2600
+NoConn ~ 4300 3100
+NoConn ~ 3800 3100
+NoConn ~ 3800 3000
+NoConn ~ 3800 2900
+Wire Wire Line
+	3800 2600 3150 2600
+Wire Wire Line
+	4300 2500 4950 2500
+Wire Wire Line
+	3800 2500 3150 2500
+Text Label 3200 3700 0    50   ~ 0
+row_0
+Text Label 4700 3600 0    50   ~ 0
+row_1
+Text Label 4700 3500 0    50   ~ 0
+row_3
+Text Label 4700 3400 0    50   ~ 0
+row_5
+Text Label 3200 3600 0    50   ~ 0
+row_2
+Text Label 3200 3500 0    50   ~ 0
+row_4
+Text Label 4700 3200 0    50   ~ 0
+row_8
+Text Label 4700 2900 0    50   ~ 0
+row_9
+Text Label 3200 2800 0    50   ~ 0
+col_0
+Text Label 4700 2800 0    50   ~ 0
+col_1
+Text Label 4700 2700 0    50   ~ 0
+col_2
+Text Label 3200 2600 0    50   ~ 0
+col_3
+Text Label 4700 2500 0    50   ~ 0
+col_4
+Text Label 3200 2500 0    50   ~ 0
+col_5
+NoConn ~ 4300 2400
+NoConn ~ 4300 2300
+NoConn ~ 3800 2300
+NoConn ~ 3800 2100
+NoConn ~ 3800 2200
+NoConn ~ 4300 2100
+NoConn ~ 4300 2000
+NoConn ~ 4300 1900
+Text Label 6500 850  0    50   ~ 0
+r_0
+Text Label 6500 1350 0    50   ~ 0
+r_1
+Text Label 6500 1850 0    50   ~ 0
+r_2
+Text Label 6500 2350 0    50   ~ 0
+r_3
+Text Label 6500 2850 0    50   ~ 0
+r_4
+Text Label 6500 3350 0    50   ~ 0
+r_5
+Text Label 6500 3850 0    50   ~ 0
+r_6
+Text Label 6500 4350 0    50   ~ 0
+r_7
+Text Label 6500 4850 0    50   ~ 0
+r_8
+Text Label 6500 5350 0    50   ~ 0
+r_9
+Text Label 6550 5750 0    50   ~ 0
+c_0
+Text Label 7000 5750 0    50   ~ 0
+c_1
+Text Label 7450 5750 0    50   ~ 0
+c_2
+Text Label 7900 5750 0    50   ~ 0
+c_3
+Text Label 8350 5750 0    50   ~ 0
+c_4
+Text Label 8800 5750 0    50   ~ 0
+c_5
+Wire Wire Line
+	7150 3750 7150 4250
+Connection ~ 7150 3750
+Connection ~ 7150 4250
+Wire Wire Line
+	4300 3300 4950 3300
+Wire Wire Line
+	3800 3300 3150 3300
+Text Label 4700 3300 0    50   ~ 0
+row_7
+Text Label 3200 3300 0    50   ~ 0
+row_6
+NoConn ~ 3800 2400
+NoConn ~ 3800 2700
+NoConn ~ 4300 3000
+NoConn ~ 4300 3700
+NoConn ~ 3800 3400
+NoConn ~ 3800 2000
+NoConn ~ 4300 2200
+NoConn ~ 3800 3200
+$Comp
+L Device:LED D?
+U 1 1 5C878379
+P 9400 1050
+F 0 "D?" V 9438 933 50  0000 R CNN
+F 1 "LED" V 9347 933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 9400 1050 50  0001 C CNN
+F 3 "~" H 9400 1050 50  0001 C CNN
+	1    9400 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8786C5
+P 9800 1050
+F 0 "D?" V 9838 933 50  0000 R CNN
+F 1 "LED" V 9747 933 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 9800 1050 50  0001 C CNN
+F 3 "~" H 9800 1050 50  0001 C CNN
+	1    9800 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C878793
+P 9400 1500
+F 0 "D?" V 9438 1383 50  0000 R CNN
+F 1 "LED" V 9347 1383 50  0000 R CNN
+F 2 "custom_LED_footprint:LED_0402_1005Metric" H 9400 1500 50  0001 C CNN
+F 3 "~" H 9400 1500 50  0001 C CNN
+	1    9400 1500
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
