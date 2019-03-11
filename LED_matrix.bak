@@ -3166,37 +3166,37 @@ Wire Wire Line
 Wire Wire Line
 	10150 6300 9850 6300
 Text Label 6800 800  0    50   ~ 0
-row_01
+row_0
 Text Label 6800 1300 0    50   ~ 0
-row_11
+row_1
 Text Label 6800 1800 0    50   ~ 0
-row_21
+row_2
 Text Label 6800 2300 0    50   ~ 0
-row_31
+row_3
 Text Label 6800 2800 0    50   ~ 0
-row_41
+row_4
 Text Label 6800 3300 0    50   ~ 0
-row_51
+row_5
 Text Label 6800 3800 0    50   ~ 0
-row_61
+row_6
 Text Label 6800 4300 0    50   ~ 0
-row_71
+row_7
 Text Label 6800 4800 0    50   ~ 0
-row_81
+row_8
 Text Label 6800 5300 0    50   ~ 0
-row_91
+row_9
 Text Label 7650 6300 0    50   ~ 0
-col_01
+col_0
 Text Label 8100 6300 0    50   ~ 0
-col_11
+col_1
 Text Label 8550 6300 0    50   ~ 0
-col_21
+col_2
 Text Label 9000 6300 0    50   ~ 0
-col_31
+col_3
 Text Label 9450 6300 0    50   ~ 0
-col_41
+col_4
 Text Label 9900 6300 0    50   ~ 0
-col_51
+col_5
 Text Label 7700 800  0    50   ~ 0
 r_01
 Text Label 7700 1300 0    50   ~ 0
@@ -3233,22 +3233,6 @@ Wire Wire Line
 	8350 3700 8350 4200
 Connection ~ 8350 3700
 Connection ~ 8350 4200
-NoConn ~ 6750 800 
-NoConn ~ 6750 1300
-NoConn ~ 6750 1800
-NoConn ~ 6750 2300
-NoConn ~ 6750 2800
-NoConn ~ 6750 3300
-NoConn ~ 6750 3800
-NoConn ~ 6750 4300
-NoConn ~ 6750 4800
-NoConn ~ 6750 5300
-NoConn ~ 7600 6300
-NoConn ~ 8050 6300
-NoConn ~ 8500 6300
-NoConn ~ 8950 6300
-NoConn ~ 9400 6300
-NoConn ~ 9850 6300
 $Comp
 L Device:R R17
 U 1 1 5D324B88
