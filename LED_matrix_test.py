@@ -4,10 +4,6 @@ import RPi.GPIO as IO
 import time 
 
 # IO.setwarnings(False)  #do not show any warnings
-
-x = 1
-y = 1
-
 IO.setmode(IO.BOARD)  
 
 row_select = [0x01, 0x02, 0x04, 0x08, 0x10, 0x20]
@@ -46,20 +42,6 @@ def set_row(val):
     else: IO.output(row_pins[4], 0)
     if (val&0x20 == 0x20): IO.output(row_pins[5], 1)
     else: IO.output(row_pins[5], 0)
-    '''
-    if (pin&0x10 == 0x10): IO.output(19,0)
-                    else:
-                                IO.output(19,1)
-    if(pin&0x10 == 0x10):
-                IO.output(19,0)
-                    else:
-                                IO.output(19,1)
-    if(pin&0x10 == 0x10):
-                IO.output(19,0)
-                    else:
-                                IO.output(19,1)
-
-    '''
 
 def set_cols(val):
     if (val&0x01 == 0x01): IO.output(col_pins[0], 0)
@@ -89,10 +71,3 @@ while 1:
     show(numbers[4])
     show(numbers[5])
     show(numbers[6])
-
-# IO.output(21, 1)
-# IO.output(19, 1)
-# IO.output(18, 1)
-# IO.output(22, 0)
-
-
