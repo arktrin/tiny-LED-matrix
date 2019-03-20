@@ -6,23 +6,30 @@ import time
 # IO.setwarnings(False)  #do not show any warnings
 IO.setmode(IO.BOARD)  
 
-row_select = [0x01, 0x02, 0x04, 0x08, 0x10, 0x20]
-row_pins = [40, 37, 38, 35, 36, 33, 32, 31, 29]
+col_select = [0x01, 0x02, 0x04, 0x08, 0x10, 0x20]
+row_select = [0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x80, 0x100, 0x200]
+row_pins = [40, 37, 38, 35, 36, 33, 32, 31, 29, 23]
 col_pins = [22, 21, 19, 18, 15, 16]
 for pin in row_pins+col_pins:
     IO.setup(pin, IO.OUT)
 
-C = [0b1001,0b0110,0b1001,0b0110,0b1001,0b0110]
-C = [0b1101,0b1101,0b1101,0b1011,0b1011,0b1011]
-A = [0b0110,0b1001,0b1001,0b1111,0b1001,0b1001]
-numbers = {0:[0b0110,0b1001,0b1001,0b1001,0b1001,0b0110],
-           1:[0b0010,0b0110,0b1010,0b0010,0b0010,0b0010],
-           2:[0b1111,0b0001,0b0001,0b0010,0b0100,0b1111],
-           3:[0b1111,0b0001,0b0010,0b0001,0b0001,0b1111],
-           4:[0b0001,0b0011,0b0101,0b1111,0b0001,0b0001],
-           5:[0b1111,0b1000,0b1110,0b0001,0b0001,0b1110],
-           6:[0b0010,0b0110,0b1010,0b0010,0b0010,0b0010]
+test = [0b111111, 0b111111, 0b111111, 0b111111, 0b111111,
+        0b111111, 0b111111, 0b111111, 0b111111, 0b111111]
+numbers = {0:[0b001100,0b010010,0b100001,0b100001,0b100001,0b100001,0b100001,0b100001,0b010010,0b001100],
+           1:[0b000100,0b000100,0b000100,0b000100,0b000100,0b000100,0b000100,0b000100,0b000100,0b000100],
+           2:[0b011110,0b100001,0b000001,0b000001,0b000010,0b001100,0b010000,0b100000,0b100000,0b111111],
+           3:[0b111111,0b000001,0b000010,0b000100,0b001110,0b000001,0b000001,0b000001,0b100001,0b011110],
+           4:[0b000001,0b000011,0b000101,0b001001,0b010001,0b100001,0b111111,0b000001,0b000001,0b000001],
+           5:[0b111111,0b100000,0b100000,0b010000,0b001100,0b000010,0b000001,0b000001,0b100001,0b011110],
+           6:[0b000010,0b000100,0b001000,0b010000,0b111110,0b100001,0b100001,0b100001,0b100001,0b011110],
+           7:[0b111111,0b000001,0b000010,0b000010,0b000010,0b000100,0b000100,0b000100,0b001000,0b001000],
+           8:[0b011110,0b100001,0b100001,0b010010,0b001100,0b010010,0b100001,0b100001,0b100001,0b011110],
+           9:[0b011110,0b100001,0b100001,0b100001,0b100001,0b011111,0b000010,0b000100,0b001000,0b010000]
            }
+
+for i in xrange(10):
+    numbers[i] = numbers[i][::-1]
+
 
 
 def reset_rows():
@@ -42,6 +49,14 @@ def set_row(val):
     else: IO.output(row_pins[4], 0)
     if (val&0x20 == 0x20): IO.output(row_pins[5], 1)
     else: IO.output(row_pins[5], 0)
+    if (val&0x40 == 0x40): IO.output(row_pins[6], 1)
+    else: IO.output(row_pins[6], 0)
+    if (val&0x80 == 0x80): IO.output(row_pins[7], 1)
+    else: IO.output(row_pins[7], 0)
+    if (val&0x100 == 0x100): IO.output(row_pins[8], 1)
+    else: IO.output(row_pins[8], 0)
+    if (val&0x200 == 0x200): IO.output(row_pins[9], 1)
+    else: IO.output(row_pins[9], 0)
 
 def set_cols(val):
     if (val&0x01 == 0x01): IO.output(col_pins[0], 0)
@@ -54,9 +69,11 @@ def set_cols(val):
     else: IO.output(col_pins[3], 1)
     if (val&0x10 == 0x10): IO.output(col_pins[4], 0)
     else: IO.output(col_pins[4], 1)
+    if (val&0x20 == 0x20): IO.output(col_pins[5], 0)
+    else: IO.output(col_pins[5], 1)
 
 def show(list_of_vals):
-    for i in xrange(200):
+    for i in xrange(130):
         for y in xrange(len(list_of_vals)):
             set_cols(list_of_vals[y])
             set_row(row_select[y])
@@ -64,10 +81,5 @@ def show(list_of_vals):
             reset_rows()
 
 while 1:
-    show(numbers[0])
-    show(numbers[1])
-    show(numbers[2])
-    show(numbers[3])
-    show(numbers[4])
-    show(numbers[5])
-    show(numbers[6])
+    for i in xrange(10):
+        show(numbers[i])
